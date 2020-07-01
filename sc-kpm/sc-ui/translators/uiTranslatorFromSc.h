@@ -12,6 +12,17 @@
 /*! Base class for translators that translate from SC-code to external
  * language
  */
+
+/*
+ *   [{
+    element: 'button',
+    properties: {
+      type: 'primary'
+    },
+    content: 'Hello'
+  }]
+  */
+
 class uiTranslateFromSc
 {
 public:

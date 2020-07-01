@@ -11,16 +11,19 @@
 #include "translators/uiSc2ScsJsonTranslator.h"
 #include "translators/uiSc2SCgJsonTranslator.h"
 #include "translators/uiSc2SCnJsonTranslator.h"
+#include "translators/uiSc2JsonTranslattor.h"
 
 sc_event *ui_translator_sc2scs_event = (sc_event*)null_ptr;
 sc_event *ui_translator_sc2scg_json_event = (sc_event*)null_ptr;
 sc_event *ui_translator_sc2scn_json_event = (sc_event*)null_ptr;
+sc_event *ui_translator_sc2ui_json_event = (sc_event*)null_ptr;
 
 void ui_initialize_translators()
 {
   ui_translator_sc2scs_event = sc_event_new(s_default_ctx, keynode_command_initiated, SC_EVENT_ADD_OUTPUT_ARC, 0, uiSc2ScsTranslator::ui_translate_sc2scs, 0);
   ui_translator_sc2scg_json_event = sc_event_new(s_default_ctx, keynode_command_initiated, SC_EVENT_ADD_OUTPUT_ARC, 0, uiSc2SCgJsonTranslator::ui_translate_sc2scg_json, 0);
   ui_translator_sc2scn_json_event = sc_event_new(s_default_ctx, keynode_command_initiated, SC_EVENT_ADD_OUTPUT_ARC, 0, uiSc2SCnJsonTranslator::ui_translate_sc2scn, 0);
+    ui_translator_sc2ui_json_event = sc_event_new(s_default_ctx, keynode_command_initiated, SC_EVENT_ADD_OUTPUT_ARC, 0, uiSc2JsonTranslattor::ui_translate_sc2ui_json, 0);
 }
 
 void ui_shutdown_translators()
@@ -31,6 +34,8 @@ void ui_shutdown_translators()
     sc_event_destroy(ui_translator_sc2scg_json_event);
   if (ui_translator_sc2scn_json_event)
     sc_event_destroy(ui_translator_sc2scn_json_event);
+  if (ui_translator_sc2ui_json_event)
+        sc_event_destroy(ui_translator_sc2ui_json_event);
 }
 
 sc_result ui_translate_command_resolve_arguments(sc_addr cmd_addr, sc_addr *output_fmt_addr, sc_addr *source_addr)

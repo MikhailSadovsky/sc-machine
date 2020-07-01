@@ -17,7 +17,8 @@ typedef enum
   sc_iterator5_f_a_f_a_f,
   sc_iterator5_f_a_f_a_a,
   sc_iterator5_f_a_a_a_a,
-  sc_iterator5_a_a_f_a_a
+  sc_iterator5_a_a_f_a_a,
+  sc_iterator5_ui
 } sc_iterator5_type;
 
 /*! Structure to store iterator information
@@ -48,6 +49,20 @@ _SC_EXTERN sc_iterator5* sc_iterator5_new(const sc_memory_context *ctx, sc_itera
  * @return Pointer to created iterator. If parameters invalid for specified iterator type, or type is not a sc-iterator-3, then return 0
  */
 _SC_EXTERN sc_iterator5* sc_iterator5_a_a_f_a_f_new(const sc_memory_context *ctx, sc_type p1, sc_type p2, sc_addr p3, sc_type p4, sc_addr p5);
+
+/*! Create new sc-iterator5
+ * @param type Iterator type (search template)
+ * @param p1 sc-addr of first element in construction
+ * @param p2 Second element type
+ * @param p3 Third element type
+ * @param p4 4-th element type
+ * @param p5 sc-addr of 5th element in construction
+ * @return Pointer to created iterator. If parameters invalid for specified iterator type, or type is not a sc-iterator-3, then return 0
+ */
+
+
+
+_SC_EXTERN sc_iterator5* sc_iterator5_ui_new(const sc_memory_context *ctx, sc_type p1, sc_type p2, sc_addr p3, sc_type p4, sc_addr p5);
 
 /*! Create new sc-iterator5
  * @param type Iterator type (search template)

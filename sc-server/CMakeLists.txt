@@ -26,3 +26,5 @@ add_dependencies(sc-server
   sc-kpm
   sc-memory
 )
+
+SET(CMAKE_BUILD_TYPE Debug)

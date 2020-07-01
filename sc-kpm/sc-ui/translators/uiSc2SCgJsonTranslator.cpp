@@ -4,6 +4,7 @@
  * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
  */
 
+#include <sc-memory/utils/sc_log.hpp>
 #include "uiPrecompiled.h"
 #include "uiSc2SCgJsonTranslator.h"
 
@@ -87,6 +88,9 @@ void uiSc2SCgJsonTranslator::runImpl()
   sc_iterator3_free(it);
 
   mOutputData += "]";
+ // SC_LOG_INFO(mOutputData);
+    SC_LOG_INFO(mOutputData);
+    SC_LOG_INFO("scg answer");
 }
 
 // ------------------------------------------------------------------------------

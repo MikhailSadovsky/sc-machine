@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g -DSC_DEBUG -DSC_PROFILE  -shared -Wl,-soname,libsc-kpm-common.so -o ../../../bin/libsc-kpm-common.so CMakeFiles/sc-kpm-common.dir/sc_keynodes.c.o  -Wl,-rpath,/home/tatyana/ostis-example-app/ostis/sc-machine/bin ../../../bin/libsc-core.so -lglib-2.0 -lgmodule-2.0 -lglib-2.0 -lgmodule-2.0 -lrocksdb 

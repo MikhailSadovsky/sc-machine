@@ -1,0 +1,16 @@
+/home/tatyana/clion/clion-2020.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/tatyana/ostis-example-app/ostis/sc-machine
+-- Could NOT find Java (missing: Java_JAR_EXECUTABLE Java_JAVAC_EXECUTABLE Java_JAVADOC_EXECUTABLE) (found version "11.0.4")
+CMake Warning at /home/tatyana/clion/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/FindBoost.cmake:2020 (message):
+  No header defined for python-py36; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  CMakeLists.txt:96 (find_package)
+
+
+-- Found RocksDB  (include: /usr/include, library: /usr/lib/librocksdb.so)
+-- Using Clang version 6.0.0 from /usr/lib/llvm-6.0/lib with CXXFLAGS -I/usr/lib/llvm-6.0/include -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+Python version: 3.6.9
+-- Output libraries to /home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug

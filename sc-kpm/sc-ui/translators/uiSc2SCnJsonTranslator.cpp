@@ -4,6 +4,7 @@
  * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
  */
 
+#include <sc-memory/utils/sc_log.hpp>
 #include "uiPrecompiled.h"
 #include "uiSc2SCnJsonTranslator.h"
 
@@ -251,6 +252,8 @@ void uiSc2SCnJsonTranslator::runImpl()
   mRootSentences.clear();
 
   mOutputData += "]";
+    SC_LOG_INFO(mOutputData);
+    SC_LOG_INFO("scn answer");
   //qDebug() << "Result: " << QString().fromStdString(mOutputData);
 }
 
