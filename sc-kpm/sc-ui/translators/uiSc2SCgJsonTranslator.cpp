@@ -88,9 +88,6 @@ void uiSc2SCgJsonTranslator::runImpl()
   sc_iterator3_free(it);
 
   mOutputData += "]";
- // SC_LOG_INFO(mOutputData);
-    SC_LOG_INFO(mOutputData);
-    SC_LOG_INFO("scg answer");
 }
 
 // ------------------------------------------------------------------------------

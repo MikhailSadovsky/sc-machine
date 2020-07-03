@@ -32,5 +32,3 @@ add_dependencies(sc-kpm
     sc-search
     sc-utils
 )
-
-SET(CMAKE_BUILD_TYPE Debug)

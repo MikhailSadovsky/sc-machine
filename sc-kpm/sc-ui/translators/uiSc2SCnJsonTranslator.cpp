@@ -252,8 +252,6 @@ void uiSc2SCnJsonTranslator::runImpl()
   mRootSentences.clear();
 
   mOutputData += "]";
-    SC_LOG_INFO(mOutputData);
-    SC_LOG_INFO("scn answer");
   //qDebug() << "Result: " << QString().fromStdString(mOutputData);
 }
 

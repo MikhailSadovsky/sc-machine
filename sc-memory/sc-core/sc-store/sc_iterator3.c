@@ -144,7 +144,6 @@ sc_iterator3 * sc_iterator3_a_f_f_new(sc_memory_context const * ctx, sc_type beg
   return sc_iterator3_new(ctx, sc_iterator3_a_f_f, p1, p2, p3);
 }
 
-
 sc_iterator3 * sc_iterator3_f_f_f_new(sc_memory_context const * ctx, sc_addr beg_addr, sc_addr edge_addr, sc_addr end_addr)
 {
   sc_access_levels levels;

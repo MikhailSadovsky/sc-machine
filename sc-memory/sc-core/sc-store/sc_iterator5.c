@@ -135,8 +135,6 @@ sc_iterator5* sc_iterator5_a_a_f_a_f_new(const sc_memory_context *ctx, sc_type p
   return sc_iterator5_new(ctx, sc_iterator5_a_a_f_a_f, _p1, _p2, _p3, _p4, _p5);
 }
 
-
-
 sc_iterator5* sc_iterator5_f_a_f_a_f_new(const sc_memory_context *ctx, sc_addr p1, sc_type p2, sc_addr p3, sc_type p4, sc_addr p5)
 {
   sc_iterator_param _p1,_p2,_p3,_p4,_p5;

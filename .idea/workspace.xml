@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="sc-machine" targetName="sc-agents-common" />
+      <config projectName="sc-machine" targetName="sc-ui" />
+      <config projectName="sc-machine" targetName="sc-code-generator" />
+      <config projectName="sc-machine" targetName="SCsParser" />
+      <config projectName="sc-machine" targetName="exampleModule" />
+      <config projectName="sc-machine" targetName="sc-python" />
+      <config projectName="sc-machine" targetName="sc-utils" />
+      <config projectName="sc-machine" targetName="sctp-server_autogen" />
+      <config projectName="sc-machine" targetName="make_lib_output_dir" />
+      <config projectName="sc-machine" targetName="sc-kpm-common" />
+      <config projectName="sc-machine" targetName="sc-kpm" />
+      <config projectName="sc-machine" targetName="sc-server" />
+      <config projectName="sc-machine" targetName="sc-python-GenerateCode" />
+      <config projectName="sc-machine" targetName="sc-builder" />
+      <config projectName="sc-machine" targetName="exampleModule-GenerateCode" />
+      <config projectName="sc-machine" targetName="sc-core" />
+      <config projectName="sc-machine" targetName="antlr4_static" />
+      <config projectName="sc-machine" targetName="sctp-server" />
+      <config projectName="sc-machine" targetName="sc-memory-GenerateCode" />
+      <config projectName="sc-machine" targetName="sc-memory" />
+      <config projectName="sc-machine" targetName="sc-search" />
+      <config projectName="sc-machine" targetName="sc-agents-common-GenerateCode" />
+      <config projectName="sc-machine" targetName="sc-builder-GenerateCode" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="635ee366-bfa5-43d4-a6c4-8bfe650700fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../problem-solver/cxx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../problem-solver/cxx/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../problem-solver/cxx/exampleModule/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../problem-solver/cxx/exampleModule/CMakeLists.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-sc-ui" />
+  </component>
+  <component name="ProjectId" id="1dS9spH2Mv8zmO9Io3olIf66e9a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/extensions" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sc-kpm/sc-ui/translators" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.sc-server">
+    <configuration name="SCsParser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="SCsParser" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="antlr4_static" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="antlr4_static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exampleModule-GenerateCode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="exampleModule-GenerateCode" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exampleModule" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="exampleModule" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="make_lib_output_dir" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="make_lib_output_dir" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-agents-common-GenerateCode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-agents-common-GenerateCode" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-agents-common" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-agents-common" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-builder-GenerateCode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-builder-GenerateCode" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-builder" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-builder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sc-machine" RUN_TARGET_NAME="sc-builder">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-code-generator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-code-generator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sc-machine" RUN_TARGET_NAME="sc-code-generator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-core" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-core" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-kpm-common" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-kpm-common" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-kpm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-kpm" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-memory-GenerateCode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-memory-GenerateCode" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-memory" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-memory" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-python-GenerateCode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-python-GenerateCode" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-python" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-python" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-search" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-search" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-server" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-e $PROJECT_DIR$/bin/extensions -r $PROJECT_DIR$/../kb.bin -i $PROJECT_DIR$/bin/config.ini" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$/bin" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sc-machine" RUN_TARGET_NAME="sc-server">
+      <envs>
+        <env name="LD_LIBRARY_PATH" value="$PROJECT_DIR$/bin" />
+      </envs>
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-ui" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-ui" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sc-utils" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sc-utils" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sctp-server" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sctp-server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sc-machine" RUN_TARGET_NAME="sctp-server">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sctp-server_autogen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sc-machine" TARGET_NAME="sctp-server_autogen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.sc-kpm" />
+      <item itemvalue="CMake Application.sc-agents-common" />
+      <item itemvalue="CMake Application.sc-agents-common-GenerateCode" />
+      <item itemvalue="CMake Application.sc-kpm-common" />
+      <item itemvalue="CMake Application.sc-python" />
+      <item itemvalue="CMake Application.sc-python-GenerateCode" />
+      <item itemvalue="CMake Application.sc-search" />
+      <item itemvalue="CMake Application.sc-ui" />
+      <item itemvalue="CMake Application.sc-utils" />
+      <item itemvalue="CMake Application.sc-core" />
+      <item itemvalue="CMake Application.sc-memory" />
+      <item itemvalue="CMake Application.sc-memory-GenerateCode" />
+      <item itemvalue="CMake Application.SCsParser" />
+      <item itemvalue="CMake Application.sctp-server" />
+      <item itemvalue="CMake Application.sctp-server_autogen" />
+      <item itemvalue="CMake Application.sc-server" />
+      <item itemvalue="CMake Application.antlr4_static" />
+      <item itemvalue="CMake Application.make_lib_output_dir" />
+      <item itemvalue="CMake Application.sc-builder" />
+      <item itemvalue="CMake Application.sc-builder-GenerateCode" />
+      <item itemvalue="CMake Application.sc-code-generator" />
+      <item itemvalue="CMake Application.exampleModule" />
+      <item itemvalue="CMake Application.exampleModule-GenerateCode" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="635ee366-bfa5-43d4-a6c4-8bfe650700fa" name="Default Changelist" comment="" />
+      <created>1592407840320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592407840320</updated>
+      <workItem from="1592407859182" duration="3274000" />
+      <workItem from="1592893487987" duration="2990000" />
+      <workItem from="1592907266466" duration="43353000" />
+      <workItem from="1593100802311" duration="14438000" />
+      <workItem from="1593291003448" duration="70747000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592408958991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592408958991" />
+    <state width="570" height="465" key="DebuggerActiveHint" timestamp="1593533977027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="570" height="465" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1593533977027" />
+    <state x="743" y="277" width="424" height="479" key="FileChooserDialogImpl" timestamp="1592408233350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="277" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592408233350" />
+    <state width="1868" height="274" key="GridCell.Tab.0.bottom" timestamp="1593635918952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1868" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593635918952" />
+    <state width="1868" height="274" key="GridCell.Tab.0.center" timestamp="1593635918952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1868" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593635918952" />
+    <state width="1868" height="274" key="GridCell.Tab.0.left" timestamp="1593635918952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1868" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593635918952" />
+    <state width="1868" height="274" key="GridCell.Tab.0.right" timestamp="1593635918952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1868" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593635918952" />
+    <state width="1868" height="244" key="GridCell.Tab.1.bottom" timestamp="1593635918949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1868" height="244" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593635918949" />
+    <state width="1868" height="244" key="GridCell.Tab.1.center" timestamp="1593635918948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1868" height="244" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593635918948" />
+    <state width="1868" height="244" key="GridCell.Tab.1.left" timestamp="1593635918948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1868" height="244" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593635918948" />
+    <state width="1868" height="244" key="GridCell.Tab.1.right" timestamp="1593635918948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1868" height="244" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593635918948" />
+    <state x="665" y="99" width="589" height="840" key="find.popup" timestamp="1593623409896">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="99" width="589" height="840" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593623409896" />
+    <state x="1101" y="271" width="432" height="398" key="refactoring.ChangeSignatureDialog" timestamp="1593632438000">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1101" y="271" width="432" height="398" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593632438000" />
+    <state x="750" y="378" width="400" height="272" key="scopes" timestamp="1593019713052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="750" y="378" width="400" height="272" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1593019713052" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1593020100170">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593020100170" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/uiCommands.cpp</url>
+          <line>463</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/uiCommands.cpp</url>
+          <line>369</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../../problem-solver/cxx/exampleModule/agents/SubdividingSearchAgent.cpp</url>
+          <line>19</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/uiCommands.cpp</url>
+          <line>288</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-search/agents/search_semantic_neighborhood.c</url>
+          <line>30</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/uiCommands.cpp</url>
+          <line>348</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/uiCommands.cpp</url>
+          <line>330</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/uiCommands.cpp</url>
+          <line>339</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/uiCommands.cpp</url>
+          <line>306</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/uiCommands.cpp</url>
+          <line>315</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/uiCommands.cpp</url>
+          <line>356</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/uiKeynodes.cpp</url>
+          <line>102</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/translators/uiSc2JsonTranslattor.cpp</url>
+          <line>143</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/translators/uiSc2JsonTranslattor.cpp</url>
+          <line>132</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/translators/uiSc2JsonTranslattor.cpp</url>
+          <line>30</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/translators/uiSc2JsonTranslattor.cpp</url>
+          <line>39</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/translators/uiSc2JsonTranslattor.cpp</url>
+          <line>48</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/translators/uiSc2JsonTranslattor.cpp</url>
+          <line>42</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/translators/uiSc2JsonTranslattor.cpp</url>
+          <line>71</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/translators/uiSc2JsonTranslattor.cpp</url>
+          <line>70</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/translators/uiSc2JsonTranslattor.cpp</url>
+          <line>69</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/translators/uiTranslatorFromSc.cpp</url>
+          <line>25</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/translators/uiSc2JsonTranslattor.cpp</url>
+          <line>54</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sc-kpm/sc-ui/translators/uiSc2JsonTranslattor.cpp</url>
+          <line>62</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
