@@ -1,0 +1,2890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sc-machine"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\config\;CMake Files\sc-memory\;CMake Files\sc-memory\sc-core\;CMake Files\sc-memory\sc-memory\;CMake Files\sc-kpm\;CMake Files\sc-kpm\sc-common\;CMake Files\sc-kpm\sc-python\;CMake Files\sc-kpm\sc-ui\;CMake Files\sc-kpm\sc-search\;CMake Files\sc-kpm\sc-utils\;CMake Files\sc-kpm\sc-agents-common\;CMake Files\sc-server\;CMake Files\tools\;CMake Files\tools\codegen\;CMake Files\tools\builder\;CMake Files\sc-network\;CMake Files\sc-network\sctp_server\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\;CMake Files\..\..\problem-solver\;CMake Files\..\..\problem-solver\cxx\;CMake Files\..\..\problem-solver\cxx\exampleModule\;CMake Files\thirdparty\;CMake Files\thirdparty\antlr\;CMake Files\thirdparty\antlr\runtime\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-core">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/libsc-core.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-core"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_MEMORY_SELF_BUILD"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-core/Makefile&quot;  VERBOSE=1 sc-core"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-core/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/libsc-core.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-core"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_MEMORY_SELF_BUILD"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-core/Makefile&quot;  VERBOSE=1 sc-core/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SCsParser">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 SCsParser"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-memory">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/libsc-memory.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_MEMORY_SELF_BUILD"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/python3.6m"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 sc-memory"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-memory/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/libsc-memory.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_MEMORY_SELF_BUILD"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/python3.6m"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 sc-memory/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-memory-GenerateCode">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 sc-memory-GenerateCode"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-memory/sc-memory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-kpm">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/Makefile&quot;  VERBOSE=1 sc-kpm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-kpm-common">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/libsc-kpm-common.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-common"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_KPM_COMMON_SELF_BUILD"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-common"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-common/Makefile&quot;  VERBOSE=1 sc-kpm-common"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-kpm-common/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/libsc-kpm-common.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-common"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_KPM_COMMON_SELF_BUILD"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-common"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-common/Makefile&quot;  VERBOSE=1 sc-kpm-common/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-python-GenerateCode">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/Makefile&quot;  VERBOSE=1 sc-python-GenerateCode"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-python">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/extensions/libsc-python.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/sc-python_gen"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/Makefile&quot;  VERBOSE=1 sc-python"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-python/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/extensions/libsc-python.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/sc-python_gen"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/Makefile&quot;  VERBOSE=1 sc-python/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-python/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-ui">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/extensions/libsc-ui.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-ui"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_KPM_COMMON_SELF_BUILD"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-ui/Makefile&quot;  VERBOSE=1 sc-ui"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-ui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-ui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-ui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-ui/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/extensions/libsc-ui.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-ui"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_KPM_COMMON_SELF_BUILD"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-ui/Makefile&quot;  VERBOSE=1 sc-ui/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-ui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-ui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-ui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-search">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/extensions/libsc-search.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-search"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_KPM_COMMON_SELF_BUILD"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-search/Makefile&quot;  VERBOSE=1 sc-search"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-search/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-search/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-search/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-search/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/extensions/libsc-search.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-search"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_KPM_COMMON_SELF_BUILD"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-search/Makefile&quot;  VERBOSE=1 sc-search/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-search/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-search/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-search/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-utils">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/extensions/libsc-utils.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-utils"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_KPM_COMMON_SELF_BUILD"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-utils/Makefile&quot;  VERBOSE=1 sc-utils"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-utils/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/extensions/libsc-utils.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-utils"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_KPM_COMMON_SELF_BUILD"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-utils/Makefile&quot;  VERBOSE=1 sc-utils/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-agents-common-GenerateCode">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common/Makefile&quot;  VERBOSE=1 sc-agents-common-GenerateCode"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-agents-common">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/extensions/libsc-agents-common.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_AGENTS_COMMON_SELF_BUILD"/>
+					<Add option="-DSC_KPM_COMMON_SELF_BUILD"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/generated"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common/Makefile&quot;  VERBOSE=1 sc-agents-common"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-agents-common/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/extensions/libsc-agents-common.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_AGENTS_COMMON_SELF_BUILD"/>
+					<Add option="-DSC_KPM_COMMON_SELF_BUILD"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/generated"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common/Makefile&quot;  VERBOSE=1 sc-agents-common/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-kpm/sc-agents-common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-server">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/sc-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-server/Makefile&quot;  VERBOSE=1 sc-server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-server/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/sc-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-server/Makefile&quot;  VERBOSE=1 sc-server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-code-generator">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/sc-code-generator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/codegen/Makefile&quot;  VERBOSE=1 sc-code-generator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/codegen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/codegen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/codegen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-code-generator/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/sc-code-generator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/codegen/Makefile&quot;  VERBOSE=1 sc-code-generator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/codegen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/codegen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/codegen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-builder">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/sc-builder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/sc-builder_gen"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/Makefile&quot;  VERBOSE=1 sc-builder"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-builder/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/sc-builder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/sc-builder_gen"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/Makefile&quot;  VERBOSE=1 sc-builder/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sc-builder-GenerateCode">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/Makefile&quot;  VERBOSE=1 sc-builder-GenerateCode"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/tools/builder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sctp-server">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/sctp-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/sctp-server_autogen/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/Makefile&quot;  VERBOSE=1 sctp-server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sctp-server/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/sctp-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/sctp-server_autogen/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/Makefile&quot;  VERBOSE=1 sctp-server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sctp-server_autogen">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/Makefile&quot;  VERBOSE=1 sctp-server_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="antlr4_static">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/libantlr4-runtime.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/dfa"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/misc"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/support"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/Makefile&quot;  VERBOSE=1 antlr4_static"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="antlr4_static/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/libantlr4-runtime.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/dfa"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/misc"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/support"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/Makefile&quot;  VERBOSE=1 antlr4_static/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="make_lib_output_dir">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/Makefile&quot;  VERBOSE=1 make_lib_output_dir"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/thirdparty/antlr/runtime/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exampleModule">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/extensions/libexampleModule.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_KPM_COMMON_SELF_BUILD"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/exampleModule_gen"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/generated"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/Makefile&quot;  VERBOSE=1 exampleModule"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exampleModule/fast">
+				<Option output="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/extensions/libexampleModule.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSC_KPM_COMMON_SELF_BUILD"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/exampleModule_gen"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated"/>
+					<Add directory="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/generated"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/Makefile&quot;  VERBOSE=1 exampleModule/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exampleModule-GenerateCode">
+				<Option working_dir="/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/Makefile&quot;  VERBOSE=1 exampleModule-GenerateCode"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tatyana/ostis-example-app/ostis/sc-machine/bin/exampleModule/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake-build-debug/sc-network/sctp_server/sctp-server_autogen/mocs_compilation.cpp">
+			<Option target="sctp-server"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/agents/ANumberComparison.cpp">
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/agents/ANumberComparison.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/agents/AReverseInference.cpp">
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/agents/AReverseInference.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/agents/ATemplateGeneration.cpp">
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/agents/ATemplateGeneration.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/generated/ANumberComparison.generated.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/generated/AReverseInference.generated.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/generated/ATemplateGeneration.generated.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/generated/coreKeynodes.generated.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/generated/sc_agents_common.generated.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/keynodes/coreKeynodes.cpp">
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/keynodes/coreKeynodes.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/sc_agents_common.cpp">
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/sc_agents_common.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/utils/AgentUtils.cpp">
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/utils/AgentUtils.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/utils/CommonUtils.cpp">
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/utils/CommonUtils.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/utils/IteratorUtils.cpp">
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/utils/IteratorUtils.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/utils/LogicRuleUtils.cpp">
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/utils/LogicRuleUtils.hpp">
+			<Option target="sc-agents-common-GenerateCode"/>
+			<Option target="sc-agents-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-common/sc_common_types.h">
+			<Option target="sc-kpm-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-common/sc_keynodes.c">
+			<Option target="sc-kpm-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-common/sc_keynodes.h">
+			<Option target="sc-kpm-common"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-python/sc_python_module.cpp">
+			<Option target="sc-python"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-python/sc_python_module.hpp">
+			<Option target="sc-python-GenerateCode"/>
+			<Option target="sc-python"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-python/sc_python_services.hpp">
+			<Option target="sc-python-GenerateCode"/>
+			<Option target="sc-python"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/agents/search_identifiers.c">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/agents/search_identifiers.h">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/agents/search_input_arcs.c">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/agents/search_input_arcs.h">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/agents/search_output_arcs.c">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/agents/search_output_arcs.h">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/agents/search_semantic_neighborhood.c">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/agents/search_semantic_neighborhood.h">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/agents/search_structure.c">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/agents/search_structure.h">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/search.c">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/search.h">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/search_agents.h">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/search_defines.h">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/search_keynodes.c">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/search_keynodes.h">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/search_utils.c">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/search_utils.h">
+			<Option target="sc-search"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/translators/uiSc2JsonTranslattor.cpp">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/translators/uiSc2SCgJsonTranslator.cpp">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/translators/uiSc2SCgJsonTranslator.h">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/translators/uiSc2SCnJsonTranslator.cpp">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/translators/uiSc2SCnJsonTranslator.h">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/translators/uiSc2ScsJsonTranslator.cpp">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/translators/uiSc2ScsJsonTranslator.h">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/translators/uiTranslatorFromSc.cpp">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/translators/uiTranslatorFromSc.h">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/ui.cpp">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/ui.h">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/uiCommands.cpp">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/uiCommands.h">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/uiDefines.h">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/uiKeynodes.cpp">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/uiKeynodes.h">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/uiPrecompiled.h">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/uiTranslators.cpp">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/uiTranslators.h">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/uiTypes.cpp">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/uiTypes.h">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/uiUtils.cpp">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/uiUtils.h">
+			<Option target="sc-ui"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-utils/utils.c">
+			<Option target="sc-utils"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-utils/utils.h">
+			<Option target="sc-utils"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-utils/utils_garbage_deletion.c">
+			<Option target="sc-utils"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-utils/utils_garbage_deletion.h">
+			<Option target="sc-utils"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-utils/utils_keynodes.c">
+			<Option target="sc-utils"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-utils/utils_keynodes.h">
+			<Option target="sc-utils"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_config.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_config.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_defines.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_element.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_element.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_event.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_event.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_event/sc_event_private.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_event/sc_event_queue.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_event/sc_event_queue.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_fm_engine.cpp">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_fm_engine.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_fs_storage.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_fs_storage.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_iterator.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_iterator.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_iterator3.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_iterator3.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_iterator5.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_iterator5.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_link_helpers.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_link_helpers.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_platform.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_segment.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_segment.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_storage.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_storage.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_store.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_stream.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_stream.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_stream_file.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_stream_file.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_stream_memory.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_stream_memory.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_stream_private.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc-store/sc_types.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc_helper.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc_helper.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc_helper_private.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc_memory.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc_memory.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc_memory_ext.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc_memory_ext.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc_memory_headers.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc_memory_private.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc_memory_version.c">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/sc_memory_version.h">
+			<Option target="sc-core"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated/sc_agent.generated.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated/sc_keynodes.generated.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/generated/sc_module.generated.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/http/sc_http.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/http/sc_http.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/http/sc_http_request.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/http/sc_http_request.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/http/sc_http_response.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/http/sc_http_response.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/json/json.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/kpm/sc_agent.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/kpm/sc_agent.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/python/sc_python_bridge.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/python/sc_python_bridge.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/python/sc_python_includes.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/python/sc_python_interp.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/python/sc_python_interp.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/python/sc_python_module.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/python/sc_python_module.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/python/sc_python_service.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/python/sc_python_service.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/python/sc_python_threads.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/python/sc_python_threads.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_addr.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_addr.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_common_templ.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_common_templ.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_debug.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_debug.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_defines.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_event.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_event.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_iterator.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_iterator.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_keynodes.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_keynodes.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_link.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_link.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_memory.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_memory.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_memory_headers.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_module.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_module.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_object.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_object.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_platform.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_scs_helper.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_scs_helper.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_stream.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_stream.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_struct.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_struct.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_template.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_template.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_template_build.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_template_gen.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_template_scs.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_template_search.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_timer.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_timer.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_type.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_type.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_utils.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_utils.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_wait.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/sc_wait.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/scs/scs.g4">
+			<Option target="SCsParser"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/scs/scsLexer.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/scs/scsLexer.cpp.rule">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/scs/scsLexer.h">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/scs/scsParser.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/scs/scsParser.h">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/scs/scs_parser.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/scs/scs_parser.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/scs/scs_types.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/scs/scs_types.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_base64.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_base64.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_boost.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_cache.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_console.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_console.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_keynode_cache.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_keynode_cache.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_lock.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_lock.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_log.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_log.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_message.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_message.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_optional.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_progress.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_progress.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_signal_handler.cpp">
+			<Option target="sc-memory"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/utils/sc_signal_handler.hpp">
+			<Option target="sc-memory"/>
+			<Option target="sc-memory-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-network/sctp_server/main.cpp">
+			<Option target="sctp-server"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-network/sctp_server/sctpClient.cpp">
+			<Option target="sctp-server"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-network/sctp_server/sctpClient.h">
+			<Option target="sctp-server"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-network/sctp_server/sctpCommand.cpp">
+			<Option target="sctp-server"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-network/sctp_server/sctpCommand.h">
+			<Option target="sctp-server"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.cpp">
+			<Option target="sctp-server"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.h">
+			<Option target="sctp-server"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-network/sctp_server/sctpServer.cpp">
+			<Option target="sctp-server"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-network/sctp_server/sctpServer.h">
+			<Option target="sctp-server"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.cpp">
+			<Option target="sctp-server"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.h">
+			<Option target="sctp-server"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-server/src/main.cpp">
+			<Option target="sc-server"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ANTLRErrorListener.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ANTLRErrorListener.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ANTLRErrorStrategy.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ANTLRErrorStrategy.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ANTLRFileStream.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ANTLRFileStream.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ANTLRInputStream.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ANTLRInputStream.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/BailErrorStrategy.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/BailErrorStrategy.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/BaseErrorListener.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/BaseErrorListener.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/BufferedTokenStream.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/BufferedTokenStream.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/CharStream.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/CharStream.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/CommonToken.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/CommonToken.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/CommonTokenFactory.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/CommonTokenFactory.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/CommonTokenStream.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/CommonTokenStream.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ConsoleErrorListener.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ConsoleErrorListener.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/DefaultErrorStrategy.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/DefaultErrorStrategy.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/DiagnosticErrorListener.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/DiagnosticErrorListener.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/Exceptions.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/Exceptions.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/FailedPredicateException.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/FailedPredicateException.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/InputMismatchException.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/InputMismatchException.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/IntStream.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/IntStream.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/InterpreterRuleContext.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/InterpreterRuleContext.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/Lexer.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/Lexer.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/LexerInterpreter.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/LexerInterpreter.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/LexerNoViableAltException.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/LexerNoViableAltException.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ListTokenSource.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ListTokenSource.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/NoViableAltException.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/NoViableAltException.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/Parser.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/Parser.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ParserInterpreter.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ParserInterpreter.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ParserRuleContext.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ParserRuleContext.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ProxyErrorListener.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/ProxyErrorListener.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/RecognitionException.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/RecognitionException.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/Recognizer.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/Recognizer.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/RuleContext.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/RuleContext.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/RuleContextWithAltNum.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/RuleContextWithAltNum.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/RuntimeMetaData.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/RuntimeMetaData.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/Token.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/Token.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/TokenSource.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/TokenSource.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/TokenStream.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/TokenStream.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/TokenStreamRewriter.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/TokenStreamRewriter.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/UnbufferedCharStream.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/UnbufferedCharStream.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/UnbufferedTokenStream.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/UnbufferedTokenStream.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/Vocabulary.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/Vocabulary.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/WritableToken.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/WritableToken.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATN.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATN.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNConfig.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNConfig.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNConfigSet.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNConfigSet.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNDeserializationOptions.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNDeserializationOptions.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNDeserializer.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNDeserializer.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNSerializer.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNSerializer.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNSimulator.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNSimulator.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ATNState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/AbstractPredicateTransition.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/AbstractPredicateTransition.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ActionTransition.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ActionTransition.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/AmbiguityInfo.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/AmbiguityInfo.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ArrayPredictionContext.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ArrayPredictionContext.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/AtomTransition.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/AtomTransition.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/BasicBlockStartState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/BasicBlockStartState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/BasicState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/BasicState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/BlockEndState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/BlockEndState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/BlockStartState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/BlockStartState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ContextSensitivityInfo.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ContextSensitivityInfo.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/DecisionEventInfo.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/DecisionEventInfo.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/DecisionInfo.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/DecisionInfo.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/DecisionState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/DecisionState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/EmptyPredictionContext.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/EmptyPredictionContext.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/EpsilonTransition.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/EpsilonTransition.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ErrorInfo.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ErrorInfo.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LL1Analyzer.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LL1Analyzer.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerATNConfig.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerATNConfig.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerATNSimulator.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerATNSimulator.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerAction.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerAction.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerActionExecutor.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerActionExecutor.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerChannelAction.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerChannelAction.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerCustomAction.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerCustomAction.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerIndexedCustomAction.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerIndexedCustomAction.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerModeAction.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerModeAction.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerMoreAction.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerMoreAction.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerPopModeAction.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerPopModeAction.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerPushModeAction.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerPushModeAction.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerSkipAction.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerSkipAction.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerTypeAction.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LexerTypeAction.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LookaheadEventInfo.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LookaheadEventInfo.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LoopEndState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/LoopEndState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/NotSetTransition.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/NotSetTransition.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/OrderedATNConfigSet.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/OrderedATNConfigSet.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ParseInfo.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ParseInfo.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ParserATNSimulator.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ParserATNSimulator.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PlusBlockStartState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PlusBlockStartState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PlusLoopbackState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PlusLoopbackState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PrecedencePredicateTransition.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PrecedencePredicateTransition.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PredicateEvalInfo.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PredicateEvalInfo.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PredicateTransition.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PredicateTransition.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PredictionContext.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PredictionContext.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PredictionMode.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/PredictionMode.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ProfilingATNSimulator.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/ProfilingATNSimulator.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/RangeTransition.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/RangeTransition.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/RuleStartState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/RuleStartState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/RuleStopState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/RuleStopState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/RuleTransition.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/RuleTransition.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/SemanticContext.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/SemanticContext.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/SetTransition.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/SetTransition.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/SingletonPredictionContext.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/SingletonPredictionContext.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/StarBlockStartState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/StarBlockStartState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/StarLoopEntryState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/StarLoopEntryState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/StarLoopbackState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/StarLoopbackState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/TokensStartState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/TokensStartState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/Transition.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/Transition.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/WildcardTransition.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/atn/WildcardTransition.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/dfa/DFA.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/dfa/DFA.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/dfa/DFASerializer.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/dfa/DFASerializer.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/dfa/DFAState.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/dfa/DFAState.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/dfa/LexerDFASerializer.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/dfa/LexerDFASerializer.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/misc/InterpreterDataReader.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/misc/InterpreterDataReader.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/misc/Interval.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/misc/Interval.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/misc/IntervalSet.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/misc/IntervalSet.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/misc/MurmurHash.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/misc/MurmurHash.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/misc/Predicate.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/misc/Predicate.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/support/Any.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/support/Any.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/support/Arrays.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/support/Arrays.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/support/CPPUtils.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/support/CPPUtils.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/support/StringUtils.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/support/StringUtils.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/support/guid.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/support/guid.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/ErrorNode.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/ErrorNode.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/ErrorNodeImpl.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/ErrorNodeImpl.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/IterativeParseTreeWalker.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/IterativeParseTreeWalker.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/ParseTree.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/ParseTree.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/ParseTreeListener.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/ParseTreeListener.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/ParseTreeVisitor.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/ParseTreeVisitor.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/ParseTreeWalker.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/ParseTreeWalker.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/TerminalNode.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/TerminalNode.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/TerminalNodeImpl.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/TerminalNodeImpl.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/Trees.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/Trees.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/Chunk.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/Chunk.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/ParseTreeMatch.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/ParseTreeMatch.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/ParseTreePattern.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/ParseTreePattern.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/ParseTreePatternMatcher.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/RuleTagToken.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/RuleTagToken.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/TagChunk.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/TagChunk.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/TextChunk.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/TextChunk.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/TokenTagToken.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/pattern/TokenTagToken.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPath.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPath.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathElement.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathElement.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathLexer.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathLexer.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathLexerErrorListener.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathLexerErrorListener.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathRuleAnywhereElement.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathRuleElement.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathRuleElement.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathTokenAnywhereElement.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathTokenElement.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathTokenElement.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathWildcardAnywhereElement.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathWildcardElement.cpp">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/src/tree/xpath/XPathWildcardElement.h">
+			<Option target="antlr4_static"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/base64/base64.cpp">
+			<Option target="sc-builder"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/base64/base64.h">
+			<Option target="sc-builder"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/builder.cpp">
+			<Option target="sc-builder"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/builder.hpp">
+			<Option target="sc-builder"/>
+			<Option target="sc-builder-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/exception.hpp">
+			<Option target="sc-builder"/>
+			<Option target="sc-builder-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/gwf_translator.cpp">
+			<Option target="sc-builder"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/gwf_translator.hpp">
+			<Option target="sc-builder"/>
+			<Option target="sc-builder-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/keynodes.cpp">
+			<Option target="sc-builder"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/keynodes.hpp">
+			<Option target="sc-builder"/>
+			<Option target="sc-builder-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/main.cpp">
+			<Option target="sc-builder"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/scs_translator.cpp">
+			<Option target="sc-builder"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/scs_translator.hpp">
+			<Option target="sc-builder"/>
+			<Option target="sc-builder-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.cpp">
+			<Option target="sc-builder"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.h">
+			<Option target="sc-builder"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/translator.cpp">
+			<Option target="sc-builder"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/translator.hpp">
+			<Option target="sc-builder"/>
+			<Option target="sc-builder-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/src/utils.hpp">
+			<Option target="sc-builder"/>
+			<Option target="sc-builder-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/Cache.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/Cache.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/Cursor.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/Cursor.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/CursorType.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/CursorType.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Class.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Class.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Constructor.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Constructor.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Field.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Field.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Function.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Function.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Global.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Global.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Invokable.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Invokable.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/LanguageType.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/LanguageType.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Method.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/LanguageTypes/Method.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/MacrosManager.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/MacrosManager.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/Main.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/MetaDataConfig.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/MetaDataManager.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/MetaDataManager.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/MetaUtils.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/MetaUtils.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/ReflectionOptions.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/ReflectionParser.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/ReflectionParser.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/ReservedTypes.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/Sha256.cpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/Sha256.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/Parser/Types.hpp">
+			<Option target="sc-code-generator"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/problem-solver/cxx/exampleModule/agents/SubdividingSearchAgent.cpp">
+			<Option target="exampleModule"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/problem-solver/cxx/exampleModule/agents/SubdividingSearchAgent.hpp">
+			<Option target="exampleModule"/>
+			<Option target="exampleModule-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/problem-solver/cxx/exampleModule/exampleModule.cpp">
+			<Option target="exampleModule"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/problem-solver/cxx/exampleModule/exampleModule.hpp">
+			<Option target="exampleModule"/>
+			<Option target="exampleModule-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/problem-solver/cxx/exampleModule/keynodes/keynodes.cpp">
+			<Option target="exampleModule"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/problem-solver/cxx/exampleModule/keynodes/keynodes.hpp">
+			<Option target="exampleModule"/>
+			<Option target="exampleModule-GenerateCode"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake/FindLibClang.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake/FindRocksDB.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/cmake/codegen.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/config/config.ini.in">
+			<Option virtualFolder="CMake Files\config\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sc-memory\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sc-memory\sc-core\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-memory/sc-memory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sc-memory\sc-memory\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sc-kpm\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sc-kpm\sc-common\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sc-kpm\sc-python\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-ui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sc-kpm\sc-ui\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-search/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sc-kpm\sc-search\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sc-kpm\sc-utils\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-kpm/sc-agents-common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sc-kpm\sc-agents-common\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sc-server\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/codegen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\codegen\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/tools/builder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\builder\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-network/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sc-network\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/sc-network/sctp_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sc-network\sctp_server\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/../../problem-solver/cxx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\problem-solver\cxx\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/../../problem-solver/cxx/exampleModule/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\problem-solver\cxx\exampleModule\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\"/>
+		</Unit>
+		<Unit filename="/home/tatyana/ostis-example-app/ostis/sc-machine/thirdparty/antlr/runtime/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\antlr\runtime\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

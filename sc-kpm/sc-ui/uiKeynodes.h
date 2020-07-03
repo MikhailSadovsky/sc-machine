@@ -15,6 +15,14 @@ extern "C"
 extern sc_addr keynode_user;
 extern sc_addr keynode_command_translate_from_sc;
 extern sc_addr keynode_nrel_user_answer_formats;
+
+extern sc_addr keynode_nrel_context;
+extern sc_addr keynode_concept_button;
+extern sc_addr keynode_main_idtf;
+extern  sc_addr keynode_nrel_background_property;
+
+extern  sc_addr keynode_nrel_context_property;
+
 extern sc_addr keynode_rrel_source_sc_construction;
 extern sc_addr keynode_rrel_output_format;
 
@@ -37,6 +45,7 @@ extern sc_addr keynode_displayed_answer;
 extern sc_addr keynode_format_scs_json;
 extern sc_addr keynode_format_scg_json;
 extern sc_addr keynode_format_scn_json;
+extern sc_addr keynode_format_ui_json;
 
 extern sc_addr keynode_system_element;
 

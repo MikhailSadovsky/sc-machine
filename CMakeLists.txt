@@ -203,10 +203,11 @@ add_subdirectory(${SC_MACHINE_ROOT}/sc-kpm)
 add_subdirectory(${SC_MACHINE_ROOT}/sc-server)
 add_subdirectory(${SC_MACHINE_ROOT}/tools)
 
+
 if (${SC_BUILD_SCTP})
     add_subdirectory(${SC_MACHINE_ROOT}/sc-network)
 endif()
 
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/thirdparty)
-
+add_subdirectory(${SC_MACHINE_ROOT}/../../problem-solver/cxx ${SC_MACHINE_ROOT}/bin)
 

@@ -272,7 +272,7 @@ sc_result ui_command_generate_instance(const sc_event *event, sc_addr arg)
   return SC_RESULT_OK;
 }
 
-sc_result ui_start_answer_translation(sc_event *event, sc_addr arg)
+sc_result ui_start_answer_translation(const sc_event *event, sc_addr arg)
 {
   sc_addr question_addr;
   sc_addr answer_addr;
@@ -281,6 +281,7 @@ sc_result ui_start_answer_translation(sc_event *event, sc_addr arg)
   sc_addr format_addr;
   sc_addr trans_command_addr;
   sc_addr arc_addr;
+  sc_addr initiate_addr;
   sc_iterator5 *it5 = (sc_iterator5*)null_ptr;
   sc_iterator3 *it3 = (sc_iterator3*)null_ptr;
 
@@ -364,6 +365,9 @@ sc_result ui_start_answer_translation(sc_event *event, sc_addr arg)
           // add into translation command set
           arc_addr = sc_memory_arc_new(s_default_ctx, sc_type_arc_pos_const_perm, keynode_command_translate_from_sc, trans_command_addr);
           SYSTEM_ELEMENT(arc_addr);
+            //initiate command
+            initiate_addr = sc_memory_arc_new(s_default_ctx, sc_type_arc_pos_const_perm, keynode_command_initiated, trans_command_addr);
+            SYSTEM_ELEMENT(initiate_addr);
         }
         sc_iterator3_free(it3);
 
@@ -457,16 +461,16 @@ sc_result ui_remove_displayed_answer(sc_event *event, sc_addr arg)
 // -------------------- Module ----------------------
 sc_result ui_initialize_commands()
 {
-  /*event_ui_start_answer_translation = sc_event_new(keynode_question_finished, SC_EVENT_ADD_OUTPUT_ARC, 0, ui_start_answer_translation, 0);
-    if (event_ui_start_answer_translation == null)
-        return SC_RESULT_ERROR;*/
+  event_ui_start_answer_translation = sc_event_new(s_default_ctx,keynode_question_finished, SC_EVENT_ADD_OUTPUT_ARC, 0, ui_start_answer_translation, 0);
+    if (event_ui_start_answer_translation == null_ptr)
+        return SC_RESULT_ERROR;
 
   event_ui_command_generate_instance = sc_event_new(s_default_ctx, keynode_command_initiated, SC_EVENT_ADD_OUTPUT_ARC, 0, ui_command_generate_instance, 0);
   if (event_ui_command_generate_instance == null_ptr)
     return SC_RESULT_ERROR;
 
-  /*event_ui_remove_displayed_answer = sc_event_new(keynode_displayed_answer, SC_EVENT_ADD_OUTPUT_ARC, 0, ui_remove_displayed_answer, 0);
-    if (event_ui_remove_displayed_answer == null)
+  /*event_ui_remove_displayed_answer = sc_event_new(s_default_ctx, keynode_displayed_answer, SC_EVENT_ADD_OUTPUT_ARC, 0, ui_remove_displayed_answer, 0);
+    if (event_ui_remove_displayed_answer == null_ptr)
         return SC_RESULT_ERROR;*/
 
   return SC_RESULT_OK;

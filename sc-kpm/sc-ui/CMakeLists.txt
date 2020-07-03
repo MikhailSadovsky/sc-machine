@@ -9,3 +9,5 @@ target_include_directories(sc-ui
 	)
 add_dependencies(sc-ui sc-core sc-kpm-common)
 target_link_libraries(sc-ui sc-kpm-common)
+
+SET(CMAKE_BUILD_TYPE Debug)

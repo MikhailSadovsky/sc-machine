@@ -4,6 +4,7 @@
  * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
  */
 
+#include <sc-memory/utils/sc_log.hpp>
 #include "uiPrecompiled.h"
 #include "uiSc2ScsJsonTranslator.h"
 
@@ -25,21 +26,24 @@ void uiSc2ScsTranslator::runImpl()
 {
   StringStream ss;
   ss << "{";
+
+
   ss << "\"keywords\" : [";
 
   bool first = true;
   // get command arguments (keywords)
   sc_iterator5 *it5 = sc_iterator5_a_a_f_a_f_new(s_default_ctx,
-                                                 sc_type_node | sc_type_const,
-                                                 sc_type_arc_common | sc_type_const,
-                                                 mInputConstructionAddr,
-                                                 sc_type_arc_pos_const_perm,
+                                                 sc_type_node | sc_type_const,//неизвестный узел, знаем тольо тип его
+                                                 sc_type_arc_common | sc_type_const,//бинарная дуга
+                                                 mInputConstructionAddr,//адрес нопки
+                                                 sc_type_arc_pos_const_perm,//
                                                  keynode_question_nrel_answer);
+  //
   if (sc_iterator5_next(it5) == SC_TRUE)
   {
     sc_iterator3 *it3 = sc_iterator3_f_a_a_new(s_default_ctx,
                                                sc_iterator5_value(it5, 0),
-                                               sc_type_arc_pos_const_perm,
+                                               sc_type_arc_pos_const_perm,//небинарная дуга
                                                0);
     while (sc_iterator3_next(it3) == SC_TRUE)
     {
@@ -115,6 +119,8 @@ void uiSc2ScsTranslator::runImpl()
 
   ss << "]}";
   mOutputData = ss.str();
+  SC_LOG_INFO(mOutputData);
+  SC_LOG_INFO("scs text");
 }
 
 void uiSc2ScsTranslator::resolveSystemIdentifier(const sc_addr &addr, String &idtf)
